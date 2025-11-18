@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Shooter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Game Rules & Start Screen -->
+    <div id="start-screen">
+        <h1>Welcome to Space Shooter</h1>
+        <p>🎯 Win by scoring at least <strong>25</strong> points before time runs out!</p>
+        <p>⏳ Time Limit: <strong>90 seconds</strong></p>
+        <p>🎮 Controls:</p>
+        <ul>
+            <li>⬅ Move Left - Left Arrow Key</li>
+            <li>➡ Move Right - Right Arrow Key</li>
+            <li>⬆ Fire Bullet - Up Arrow Key</li>
+        </ul>
+        <button id="start-button">Start Game</button>
+    </div>
+    
+    <!-- Game Canvas (Hidden initially) -->
+    <canvas id="gameCanvas" style="display: none;"></canvas>
+</body>
+</html>
